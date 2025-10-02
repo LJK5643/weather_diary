@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - JpaMemoRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>JpaMemoRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.self.weatherdiary.html">com.self.weatherdiary</a> &gt; JpaMemoRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.272s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findByIdTest()</td>
+<td class="success">0.272s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:19:38.640 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.self.weatherdiary.JpaMemoRepositoryTest]: JpaMemoRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:19:38.675 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.self.weatherdiary.WeatherdiaryApplication for test class com.self.weatherdiary.JpaMemoRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-10-01T14:19:38.839+09:00  INFO 61596 --- [weatherdiary] [    Test worker] c.s.weatherdiary.JpaMemoRepositoryTest   : Starting JpaMemoRepositoryTest using Java 17.0.15 with PID 61596 (started by j in /Users/j/dev/IntelliJ/project/studyProject/weatherdiary)
+2025-10-01T14:19:38.840+09:00  INFO 61596 --- [weatherdiary] [    Test worker] c.s.weatherdiary.JpaMemoRepositoryTest   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-10-01T14:19:39.060+09:00  INFO 61596 --- [weatherdiary] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T14:19:39.079+09:00  INFO 61596 --- [weatherdiary] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2025-10-01T14:19:39.216+09:00  INFO 61596 --- [weatherdiary] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-01T14:19:39.350+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.connection                          : 1. Connection opened
+2025-10-01T14:19:39.350+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.new Connection returned 
+2025-10-01T14:19:39.351+09:00  INFO 61596 --- [weatherdiary] [    Test worker] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2025-10-01T14:19:39.352+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.352+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.353+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2025-10-01T14:19:39.354+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getTransactionIsolation() returned 4
+2025-10-01T14:19:39.354+09:00  INFO 61596 --- [weatherdiary] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@9690008
+2025-10-01T14:19:39.355+09:00  INFO 61596 --- [weatherdiary] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-01T14:19:39.356+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataInformationSchema@632cf7d3
+2025-10-01T14:19:39.359+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2025-10-01T14:19:39.371+09:00  INFO 61596 --- [weatherdiary] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T14:19:39.384+09:00  INFO 61596 --- [weatherdiary] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-01T14:19:39.394+09:00  INFO 61596 --- [weatherdiary] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T14:19:39.477+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 2. Connection opened
+2025-10-01T14:19:39.477+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 2. Connection.new Connection returned 
+2025-10-01T14:19:39.478+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 2. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.478+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 2. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.484+09:00  INFO 61596 --- [weatherdiary] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T14:19:39.493+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataInformationSchema@77eb607e
+2025-10-01T14:19:39.506+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Statement.new Statement returned 
+2025-10-01T14:19:39.506+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@5c41b8d8
+2025-10-01T14:19:39.507+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.sqlonly                             : SELECT @@character_set_database, @@sql_mode
+
+2025-10-01T14:19:39.508+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.sqltiming                           : SELECT @@character_set_database, @@sql_mode
+ {executed in 1 msec}
+2025-10-01T14:19:39.510+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.new ResultSet returned 
+2025-10-01T14:19:39.510+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@39afe59f
+2025-10-01T14:19:39.511+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.next() returned true
+2025-10-01T14:19:39.511+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.getString(1) returned utf8mb4
+2025-10-01T14:19:39.511+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.getString(2) returned ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2025-10-01T14:19:39.512+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Statement.close() returned 
+2025-10-01T14:19:39.515+09:00  WARN 61596 --- [weatherdiary] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-01T14:19:39.516+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getCatalog() returned weatherDiary
+2025-10-01T14:19:39.519+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataInformationSchema@e6e5da4
+2025-10-01T14:19:39.520+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@2d459bda
+2025-10-01T14:19:39.520+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.createNClob() returned com.mysql.cj.jdbc.NClob@2676d96a
+2025-10-01T14:19:39.520+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2025-10-01T14:19:39.523+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 3. Connection opened
+2025-10-01T14:19:39.523+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 3. Connection.new Connection returned 
+2025-10-01T14:19:39.524+09:00  INFO 61596 --- [weatherdiary] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.37
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T14:19:39.524+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 3. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.524+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 3. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.573+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 4. Connection opened
+2025-10-01T14:19:39.574+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 4. Connection.new Connection returned 
+2025-10-01T14:19:39.575+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 4. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.575+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 4. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.621+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 5. Connection opened
+2025-10-01T14:19:39.621+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 5. Connection.new Connection returned 
+2025-10-01T14:19:39.622+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 5. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.622+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 5. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.668+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 6. Connection opened
+2025-10-01T14:19:39.668+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 6. Connection.new Connection returned 
+2025-10-01T14:19:39.669+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 6. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.669+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 6. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.715+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 7. Connection opened
+2025-10-01T14:19:39.715+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 7. Connection.new Connection returned 
+2025-10-01T14:19:39.715+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 7. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.715+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 7. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.760+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 8. Connection opened
+2025-10-01T14:19:39.760+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 8. Connection.new Connection returned 
+2025-10-01T14:19:39.760+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 8. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.760+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 8. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.776+09:00  INFO 61596 --- [weatherdiary] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T14:19:39.778+09:00  INFO 61596 --- [weatherdiary] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T14:19:39.806+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 9. Connection opened
+2025-10-01T14:19:39.806+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 9. Connection.new Connection returned 
+2025-10-01T14:19:39.807+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 9. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.807+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 9. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.857+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.connection                          : 10. Connection opened
+2025-10-01T14:19:39.857+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 10. Connection.new Connection returned 
+2025-10-01T14:19:39.859+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 10. Connection.isReadOnly() returned false
+2025-10-01T14:19:39.859+09:00  INFO 61596 --- [weatherdiary] [onnection-adder] jdbc.audit                               : 10. Connection.getAutoCommit() returned true
+2025-10-01T14:19:39.873+09:00  WARN 61596 --- [weatherdiary] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T14:19:40.075+09:00  INFO 61596 --- [weatherdiary] [    Test worker] c.s.weatherdiary.JpaMemoRepositoryTest   : Started JpaMemoRepositoryTest in 1.337 seconds (process running for 1.72)
+2025-10-01T14:19:40.100+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2025-10-01T14:19:40.101+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.getAutoCommit() returned true
+2025-10-01T14:19:40.101+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.setAutoCommit(false) returned 
+Hibernate: select m1_0.id,m1_0.text from memo m1_0 where m1_0.id=?
+2025-10-01T14:19:40.326+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.new PreparedStatement returned 
+2025-10-01T14:19:40.327+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.prepareStatement(select m1_0.id,m1_0.text from memo m1_0 where m1_0.id=?, 1003, 1007) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@620260ad
+2025-10-01T14:19:40.327+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.setInt(1, 11) returned 
+2025-10-01T14:19:40.328+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.sqlonly                             : select m1_0.id,m1_0.text from memo m1_0 where m1_0.id=11
+
+2025-10-01T14:19:40.329+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.sqltiming                           : select m1_0.id,m1_0.text from memo m1_0 where m1_0.id=11
+ {executed in 1 msec}
+2025-10-01T14:19:40.329+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.new ResultSet returned 
+2025-10-01T14:19:40.329+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@eb23b9c
+2025-10-01T14:19:40.335+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultsettable                      : 
+|---|-----|
+|id |text |
+|---|-----|
+|---|-----|
+
+2025-10-01T14:19:40.335+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.next() returned false
+2025-10-01T14:19:40.335+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.isClosed() returned false
+2025-10-01T14:19:40.335+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.resultset                           : 1. ResultSet.close() returned void
+2025-10-01T14:19:40.336+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.getMaxRows() returned 0
+2025-10-01T14:19:40.336+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.getQueryTimeout() returned 0
+2025-10-01T14:19:40.336+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. PreparedStatement.close() returned 
+2025-10-01T14:19:40.351+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.rollback() returned 
+2025-10-01T14:19:40.352+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.setAutoCommit(true) returned 
+2025-10-01T14:19:40.352+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2025-10-01T14:19:40.352+09:00  INFO 61596 --- [weatherdiary] [    Test worker] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.3</a> at 2025. 10. 1. 오후 2:19:40</p>
+</div>
+</div>
+</body>
+</html>
